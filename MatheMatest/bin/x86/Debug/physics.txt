@@ -1,0 +1,127 @@
+Acceleration	a=\frac{\Del{v}}{\Del{t}}\\\vec{a}=\frac{d\vec{v}}{dt}
+Ampere's law	\oint\vec{B}\cdot{d}\vec{s}=\mu_0\eps_0\frac{d\Phi_E}{dt}+\mu_0I\\\nabla\times\vec{B}=\mu_0\eps_0\frac{\part\vec{E}}{\part{t}}+\mu_0\vec{J}
+Angular acceleration	\vec{\al}=\frac{d\om}{dt}\\a_T=\al{r}
+Angular equations of motion	\om_1=\om_0+\al{t}\\\th_1=\th_0+\om_0t+\frac{1}{2}\al{t^2}\\{\om_1}^2={\om_0}^2+2\al\Del{\th}
+Angular frequency	\om=2\pi{f}
+Angular momentum	L=mrv\\\vec{L}=\vec{r}\times\vec{p}\\\vec{L}=I\vec\om
+Angular velocity	\vec{\om}=\frac{d\th}{dt}\\v=\om{r}
+Beat frequency	f_{beat}=f_{high}-f_{low}
+Bernoulli's equation	P_1+\rho{g}y_1+\frac{1}{2}\rho{v_1}^2=P_2+\rho{g}y_2+\frac{1}{2}\rho{v_2}^2
+Biot Savart law	\vec{B}=\frac{\mu_0I}{4\pi}\int\frac{d\vec{s}\times\hat{r}}{r^2}
+Bulk modulus	\frac{F}{A}=K\frac{\Del{V}}{V_0}
+Buoyancy	B=\rho{g}V
+Capacitance	C=\frac{Q}{V}
+Capacitive potential energy	PE=\frac{1}{2}CV^2=\frac{1}{2}\frac{Q^2}{C}=\frac{1}{2}QV
+Capacitors in parallel	C_p=\sum{C_i}
+Capacitors in series	\frac{1}{C_s}=\sum\frac{1}{C_i}
+Centripetal acceleration	a_c=\frac{v^2}{r}\\\vec{a_c}=-{\om}^2\cdot\vec{r}
+Centripetal force	F=\frac{mv^2}{r}\\F=mr\om^2
+Coulomb's law	F=k\frac{q_1q_2}{r^2}
+Critical angle	sin(\th_c)=\frac{n_2}{n_1}
+Cylindrical capacitor	C=\frac{2\pi\kappa\epsilon_0l}{ln(b/a)}
+Density	\rho=\frac{m}{V}
+Drag	R=\frac{1}{2}{\rho}CAv^2
+Dynamic viscosity	\frac{F}{A}=\eta\frac{dv_x}{dz}
+Elastic potential energy	PE=\frac{1}{2}k\Del{x^2}
+Electric current	\Gamma=\frac{\Del{q}}{\Del{t}}\\I=\frac{dq}{dt}
+Electric field	\vec{E}=k\sum\frac{q}{r^2}\hat{r}\\\vec{E}=k\int\frac{dq}{r}
+Electric field definition	\vec{E}=\frac{\vec{F_E}}{q}
+Electric flux	\Phi_E=EA{cos\th}\\\Phi_E=\int\vec{E}\cdot{d}\vec{A}
+Electric potential definition	\Del{V}=\frac{\Del{U_E}}{q}
+Electric potential	V=k\sum\frac{q}{r}\\V=k\int\frac{dq}{r}
+Electric power	P=VI=I^2R=\frac{V^2}{R}
+Electric resistance	R=\frac{\rho{l}}{A}
+Energy momentum	E^2=p^2c^2+{m_0}^2c^4
+Entropy	\Del{S}=\frac{\Del{Q}}{T}\\S=k{\cdot}log(w)
+Equations of motion	v=v_0+at\\x=x_0+v_0t+\frac{1}{2}at^2\\{v_1}^2={v_0}^2+2a\Del{x}
+Escape speed	v=\sqrt{\frac{2Gm}{r}}
+Faraday's law	\oint\vec{E}\cdot{d\vec{s}}=-\frac{d\Phi_B}{dt}\\\nabla\times\vec{E}=-\frac{\part\vec{B}}{\part{t}}
+Field and potential	\bar{E}=-\frac{\Del{V}}{d}\\\vec{E}=-\nabla{V}
+First law of thermodynamics	\Del{E}=Q+W
+Fluid pressure	P=P_0+\rho{gh}
+Frequency	f=\frac{1}{T}
+Friction	F=\mu\cdot{F__N}
+Froude number	Fr=\frac{v}{\sqrt{gl}}
+Gauss's law	\oint\int\vec{E}\cdot{d}\vec{A}=\frac{Q}{\eps_0}\\\nabla\cdot\vec{E}=\frac{\rho}{\eps_0}
+Gauss's law magnetism	\oint\int\vec{B}\cdot{d}\vec{A}=0\\\nabla\cdot\vec{B}=0
+Gravitational field	g=-\frac{Gm}{r^2}
+Gravitational potential energy	PE=-\frac{Gm_1m_2}{r}
+Half life	N=N_02^{-t/\tau}
+Heat flow rate	\Phi=\frac{dQ}{dt}
+Hooke's law	\vec{F}=-k\Del{x}
+Ideal gas law	PV=nRT
+Image location	\frac{1}{f}=\frac{1}{d_o}+\frac{1}{d_i}
+Image size	M=\frac{h_i}{h_o}=\frac{d_i}{d_o}
+Impulse	\vec{J}=\Del{\vec{p}}\\\vec{J}=\bar{F}\Del{t}\\\vec{J}=\int{\vec{F}}dt
+Index of refraction	n=\frac{c}{v}
+Induced emf	\bar{\scr{E}}=-\frac{\Del\Phi_B}{\Del{t}}\\\scr{E}=-\frac{d\Phi_B}{dt}
+Intensity	I=\frac{\<P\>}{A}
+Intensity level	L_I=10log\(\frac{I}{I_0}\)
+Interference fringes	n\lambda=d{sin}\th\\\frac{n\lambda}{d}\approx\frac{x}{L}
+Internal energy	\Del{E}=\frac{3}{2}nR\Del{T}
+Kinematic viscosity	\nu=\frac{\eta}{\rho}
+Kinetic energy	KE=\frac{1}{2}mv^2
+Latent heat	Q=mL
+Length contraction	l'=l\sqrt{1-v^2/c^2}
+Liquid expansion	\Del{V}=\beta{V_0}\Del{T}
+Magnetic flux	\Phi_B=BA{cos\th}\\\Phi_B=\int\vec{B}\cdot{d}\vec{A}
+Magnetic force on a charge	F_B=qvB{sin\th}\\\vec{F_B}=q\vec{v}\times\vec{B}
+Magnetic force on a current	F_B=IlB{sin\th}\\d\vec{F_B}=Idl\times\vec{B}
+Mass energy	E=mc^2
+Maxwell Boltzmann distribution	p(v)=\frac{4v^2}{\sqrt{\pi}}\(\frac{m}{2kT}\)^{3/2}e^{-\frac{mv^2}{2kT}}
+Molecular kinetic energy	\<K\>=\frac{3}{2}kT
+Molecular speeds	v_p=\sqrt{\frac{2kT}{m}}\\\<v\>=\sqrt{\frac{8kT}{\pi{m}}}\\v_{rms}=\sqrt{\frac{3kT}{m}}
+Moment of inertia	I=\sum{mr^2}
+Momentum	\vec{p}=m\vec{v}
+Motional emf	\eps=Blv
+Newton's second law force	\sum{\vec{F}}=m\vec{a}
+Ohm's law	V=IR\\\vec{E}=\rho\vec{J}\\\vec{J}=\rho\vec{E}
+Orbital speed	v=\sqrt{\frac{Gm}{r}}
+Parallel wires	\frac{F_B}{l}=\frac{\mu_0}{2\pi}\frac{I_1I_2}{r}
+Periodic waves	v=f\lambda
+Photoelectric effect	K_{max}=E-\phi=h(f-f_0)
+Photon energy	E=hf
+Photon momentum	p=\frac{h}{\lambda}
+Plate capacitor	C=\frac{\kappa\epsilon_0A}{d}
+Power	P=\frac{dW}{dt}\\P=\vec{F}\cdot\vec{v}
+Pressure level	L_P=20log\(\frac{\Del{P}}{\Del{P_0}}\)
+Pressure	P=\frac{F}{A}
+Relative velocity	u'=\frac{u+v}{1+uv/c^2}
+Relativistic doppler effect	\frac{\lambda}{\lambda_0}=\frac{f_0}{f}=\sqrt{\frac{1+v/c}{1-v/c}}
+Relativistic energy	E=\frac{mc^2}{\sqrt{1-v^2/c^2}}
+Relativistic mass	m'=\frac{m}{\sqrt{1-v^2/c^2}}
+Relativistic momentum	\vec{p}=\frac{m\vec{v}}{\sqrt{1-v^2/c^2}}
+Resistivity conductivity	\rho=\frac{1}{\sigma}
+Resistors in parallel	\frac{1}{R_p}=\sum\frac{1}{R_i}
+Resistors in series	R_s=\sum{R_i}
+Reynolds number	Re=\frac{\rho{vD}}{\eta}
+Rotational kinetic energy	KE=\frac{1}{2}I\om^2
+Rotational power	P=\vec\tau\cdot\vec\om
+Rotational work	W=\int{\vec\tau}d\vec\th
+Rydberg equation	\frac{1}{\lambda}=-R_\infty\(\frac{1}{n^2}-\frac{1}{{n_0}^2}\)
+Schroedinger's equation	i\hbar\frac{\part}{\part{t}}\Psi(r,t)=-\frac{\hbar^2}{2m}\nabla^2\Psi(r,t)+V(r)\Psi(r,t)
+Sensible heat	Q=mc\Del{T}
+Shear modulus	\frac{F}{A}=G\frac{\Del{x}}{y}
+Simple harmonic oscillation period	T=2\pi\sqrt{\frac{m}{k}}
+Simple pendulum period	T=2\pi\sqrt{\frac{l}{g}}
+Snell's law	n_1sin(\th_1)=n_2sin(\th_2)
+Solenoid	B=\mu_0nI
+Solid expansion	\Del{l}=\alpha{l_0}\Del{T}\\\Del{A}=2\alpha{A_0}\Del{T}\\\Del{V}=3\alpha{V_0}\Del{T}
+Spherical capacitor	C=\frac{4\pi\kappa\epsilon_0}{(1/a)-(1/b)}
+Spherical mirrors	f\approx\frac{r}{2}
+Stefan Boltzmann law	\Phi=\eps\sig{A}\(T^4-{T_0}^4\)
+Straight wire	B=\frac{\mu_0I}{2\pi{r}}
+Surface tension	\gamma=\frac{F}{l}
+Thermal conduction	\Phi=\frac{kA\Del{T}}{l}
+Thermodynamic work	W=-\int{P}dV
+Time dilation	t'=\frac{t}{\sqrt{1-v^2/c^2}}
+Torque	\tau=rF{sin}\th\\\vec{\tau}=\vec{r}\times\vec{F}\\\vec{\tau}=I\vec{\al}
+Uncertainty principle	\Del{p_x}\Del{x}\ge\frac{\hbar}{2}\\\Del{E}\Del{t}\ge\frac{\hbar}{2}
+Uniform gravitational potential energy	PE=mgh
+Universal gravitation	F=-\frac{Gm_1m_2}{r^2}
+Velocity	v=\frac{\Del{x}}{\Del{t}}\\\vec{v}=\frac{d\vec{x}}{dt}
+Volume continuity	A_1v_1=A_2v_2
+Weight	\vec{W}=m\vec{g}
+Wien displacement law	\lambda_{max}=\frac{b}{T}
+Work	W=\bar{F}\Del{x}cos(\th)\\W=\int\vec{F}\cdot{d\vec{x}}
+Young's modulus	\frac{F}{A}=E\frac{\Del{l}}{l_0}

@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<grammar version="1.0" xml:lang="en-US" mode="voice" root="topLevel"
+xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="topLevel">
+    <one-of>
+      <item> <ruleref uri="#symbol"/> </item>
+      <item> data </item>
+      <item> matrix </item>
+      <item> <ruleref uri="#togglefractionmode"/> </item>
+      <item> <ruleref uri="#toggleradianmode"/> </item>
+      <item> clear </item>
+      <item> go </item>
+	  <item> cancel </item>
+      <item> <ruleref uri="#variable"/> </item>
+      <item> <ruleref uri="#derivative"/> </item>
+	  <item> deactivate </item>
+	  <item> <ruleref uri="#yprime"/> </item>
+    </one-of>
+  </rule>
+
+  <rule id="togglefractionmode">
+    <one-of>
+      <item> enable </item>
+      <item> disable </item>
+      <item> turn on </item>
+      <item> turn off </item>
+    </one-of>
+    <item> fraction mode </item>
+  </rule>
+
+  <rule id="toggleradianmode">
+    <item repeat="0-1"> turn on </item>
+    <item repeat="0-1"> enable </item>
+    <one-of>
+      <item> radian mode </item>
+      <item> degree mode </item>
+    </one-of>
+  </rule>
+
+  <rule id="derivative">
+    <one-of>
+      <item> deewhy </item>
+      <item> deedeewhy </item>
+    </one-of>
+    <item> equals </item>
+    <item repeat="0-1"> <ruleref uri="#symbol"/> </item>
+  </rule>
+
+  <rule id="yprime">
+    <item> y prime </item>
+	<item repeat="0-1"> equals </item>
+	<item repeat="0-1"> <ruleref uri="#symbol"/> </item>
+  </rule>
+
+  <rule id="variable">
+    <item> let </item>
+    <one-of>
+      <item> a </item>
+      <item> bee </item>
+      <item> see </item>
+      <item> dee </item>
+      <item> eff </item>
+      <item> gee </item>
+      <item> aitch </item>
+      <item> i </item>
+      <item> jay </item>
+      <item> kay </item>
+      <item> el </item>
+      <item> em </item>
+      <item> en </item>
+      <item> pee </item>
+      <item> cue </item>
+      <item> ar </item>
+      <item> tee </item>
+      <item> yu </item>
+      <item> vee </item>
+      <item> double-yu </item>
+      <item> ex </item>
+      <item> wye </item>
+      <item> zee </item>
+    </one-of>
+    <one-of>
+      <item> equal </item>
+      <item> be </item>
+    </one-of>
+    <item repeat="0-1"> <ruleref uri="#symbol"/> </item>
+  </rule>
+
+  <rule id="symbol">
+    <one-of>
+      <item> of </item>
+      <item> and </item>
+      <item> a </item>
+      <item> bee </item>
+      <item> see </item>
+      <item> dee </item>
+      <item> ee </item>
+      <item> eff </item>
+      <item> gee </item>
+      <item> aitch </item>
+      <item> i </item>
+      <item> jay </item>
+      <item> kay </item>
+      <item> el </item>
+      <item> em </item>
+      <item> en </item>
+      <item> pee </item>
+      <item> cue </item>
+      <item> ar </item>
+      <item> tee </item>
+      <item> yu </item>
+      <item> vee </item>
+      <item> double-yu </item>
+      <item> ex </item>
+      <item> wye </item>
+      <item> zee </item>
+      <item> pie </item>
+      <item> zero </item>
+      <item> oh </item>
+      <item> one </item>
+      <item> two </item>
+      <item> three </item>
+      <item> four </item>
+      <item> five </item>
+      <item> six </item>
+      <item> seven </item>
+      <item> eight </item>
+      <item> nine </item>
+      <item> ten </item>
+      <item> eleven </item>
+      <item> twelve </item>
+      <item> thirteen </item>
+      <item> fourteen </item>
+      <item> fifteen </item>
+      <item> sixteen </item>
+      <item> seventeen </item>
+      <item> eighteen </item>
+      <item> nineteen </item>
+      <item> twenty </item>
+      <item> thirty </item>
+      <item> forty </item>
+      <item> fifty </item>
+      <item> sixty </item>
+      <item> seventy </item>
+      <item> eighty </item>
+      <item> ninety </item>
+      <item> hundred </item>
+      <item> thousand </item>
+      <item> million </item>
+      <item> billion </item>
+      <item> trillion </item>
+      <item> zeroeth </item>
+      <item> first </item>
+      <item> half </item>
+      <item> halves </item>
+      <item> second </item>
+      <item> third </item>
+      <item> fourth </item>
+      <item> fifth </item>
+      <item> sixth </item>
+      <item> seventh </item>
+      <item> eighth </item>
+      <item> ninth </item>
+      <item> tenth </item>
+      <item> negative </item>
+      <item> positive </item>
+      <item> plus </item>
+      <item> minus </item>
+      <item> take away </item>
+      <item> times </item>
+      <item> divided by </item>
+      <item> over </item>
+      <item> equal </item>
+      <item> equals </item>
+      <item> point </item>
+      <item> to the power </item>
+      <item> to the </item>
+      <item> squared </item>
+      <item> cubed </item>
+      <item> <ruleref uri="#function"/> </item>
+      <item> all </item>
+      <item> the quantity </item>
+	  <item> cloze </item>
+	  <item> open </item>
+    </one-of>
+    <item repeat="0-1"> <ruleref uri="#symbol"/> </item>
+  </rule>
+
+  <rule id="function">
+    <one-of>
+      <item> sine </item>
+      <item> cosign </item>
+      <item> tangent </item>
+      <item> cosecant </item>
+      <item> secant </item>
+      <item> cotangent </item>
+      <item> ay-sine </item>
+      <item> ay-cosign </item>
+      <item> ay-tangent </item>
+      <item> ay-cosecant </item>
+      <item> ay-secant </item>
+      <item> ay-cotangent </item>
+      <item> square root </item>
+	  <item> log </item>
+	  <item> naturalog </item>
+	  <item> absolutevalue </item>
+    </one-of>
+    <item> of </item>
+  </rule>
+</grammar>

@@ -1,0 +1,64 @@
+Activation energy	ln(k)=\(-\frac{E_a}{R}\)\(\frac{1}{T}\)+ln(A)
+Arrhenius equation	k=Ae^{-E_a/RT}
+Avogadro's law	V=kn
+Boiling point elevation	\Del{T_b}=K_bm
+Boyle's law	P_1V_1=P_2V_2
+Bragg equation	2d{sin}\th=\nu\lambda
+Celsius to Fahrenheit	^oF={^o}C\times\frac{9}{5}+32
+Celsius to Kelvin	K={^o}C+273.15
+Charle's law	\frac{V_1}{T_1}=\frac{V_2}{T_2}
+Combined gas law	\frac{P_1V_1}{T_1}=\frac{P_2V_2}{T_2}
+Conjugate acid base pair	K_aK_b=K_w
+Dalton's law of partial pressures	P_i=X_iP_T
+DeBroglie relationship	\lambda=\frac{h}{mv}
+Definition of pH	pH=-log[H^+]
+Definition of pOH	pOH=-log[OH^-]
+Density	d=\frac{m}{V}
+Density or molar mass of gas	d=\frac{PM}{RT}
+Dilution of solution	M_iV_i=M_fV_f
+Dipole moment	\mu=Q\times{r}
+Electrical force	F_{el.}=k\frac{q_1q_2}{r^2}
+Energy of a photon	E=h\nu
+Energy of electron in hydrogen	E_n=-R_H\(\frac{1}{n^2}\)
+Energy of emitted photon	\Del{E}=h\nu=R_H\(\frac{1}{{n_i}^2}-\frac{1}{{n_f}^2}\)
+Enthalpy change	\Del{H}=\Del{E}+P\Del{V}\\\Del{E}=\Del{H}-RT\Del{n}
+Enthalpy definition	H=E+PV
+Entropy change	\Del{S}=\frac{q}{T}
+Equilibrium constant	\Del{G^o}=-RTln(K)
+Fahrenheit to Celsius	^oC=\frac{5}{9}\times\(^oF-32\)
+First law of thermodynamics	\Del{E}=q+w
+First order reaction	\frac{[A]_o}{[A]}=kt\\ln[A]=-kt+ln[A]_o
+Free energy change	\Del{G}=\Del{H}-T\Del{S}
+Freezing point depression	\Del{T_f}=K_fm
+Half life of first order reaction	t_{1/2}=\frac{ln2}{k}=\frac{0.693}{k}
+Heat capacity definition	C=ms
+Heat change	q=ms\Del{t}\\q=C\Del{t}
+Henderson Hasselbach equation	pH=pK_a+log\frac{[conj.base]}{[acid]}
+Henry's law	c=kP
+Ideal gas law	PV=nRT
+Ion product constant of water	K_W=[H^+][OH^-]
+Law of mass action	K=\frac{[C]^c[D]^d}{[A]^a[B]^b}
+Mass defect and energy released	\Del{E}=(\Del{m})c^2
+Molarity	M=\frac{m_{solute}}{L_{solution}}
+Osmotic pressure of a solution	\pi=MRT
+Percent composition of an element	{%}comp={\frac{n\times{M_e}}{M_c}}\times100%
+Percent ionization	%ionization=\frac{[ion.acid]}{[initial.acid]}\times100%
+Percent yield	{%}yield=\frac{actual}{theoretical}\times100%
+Potential energy	V=k\frac{q_1q_2}{r}
+Raoult's law	P_1=X_1P^o_1
+Rate constants at two different temperatures	ln\frac{k_1}{k_2}=\frac{E_a}{R}\(\frac{T_1-T_2}{T_1T_2}\)
+Rate law expression	rate=k[A]^x[B]^y
+Reaction quotient	\Del{G}=\Del{G^o}+RTln(Q)
+Relationship between Kp and Kc	K_p=K_c(0.0821\times{T})^{\Del{n}}
+RMS speed of gas molecules	v_{rms}=\sqrt{\frac{3RT}{M}}
+Second law of thermodynamics	Spontaneous:\\\Del{S_{univ}}=\Del{S_{sys}}+\Del{S_{surr}}>0\\Equilibrium:\\\Del{S_{univ}}=\Del{S_{sys}}+\Del{S_{surr}}=0
+Second order reaction	\frac{1}{[A]}=\frac{1}{[A]_o}+kt
+Standard enthalpy	\Del{H^o}_{rxn}=\sum{n\Del{H^o}_f(products)-\sum{m\Del}H^o(reactants)
+Standard entropy change	\Del{S^o}_{rxn}=\sum{nS^o}(products)-\sum{mS^o}(reactants)
+Standard free energy change	\Del{G^o}_{rxn}=\sum{n\Del}G^o_f(products)-\sum{m\Del}G^o_f(reactants)
+Uncertainty principle	\Del{x}\Del{p}\ge\frac{h}{4\pi}
+Van't Hoff factor	i=\frac{#part.}{#form.unit}
+Van der waals equation	(P+\frac{an^2}{V^2})(V-nb)=nRT
+Vapor pressure	lnP=-\frac{\Del{H_{vap}}}{RT}+C\\ln\frac{P_1}{P_2}=\frac{\Del{H_{vap}}}{R}\(\frac{T_1-T_2}{T_1T_2}\)
+Wavelength and frequency	v=\lambda{\nu}
+Work done in gas expansion or compression	w=-P\Del{V}

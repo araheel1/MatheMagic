@@ -1,0 +1,560 @@
+﻿Public Function LCM(n1, n2)
+a = int(n1)
+b = int(n2)
+lcm = (a/gcf(a, b))*b
+End Function
+
+Public Function GCF(n1, n2)
+p = Int(Abs(n1))
+q = Int(Abs(n2))
+temp = 0
+While (q <> 0)
+temp = p Mod q
+p = q
+q = temp
+Wend
+gcf = p
+End Function
+
+Public Function nCk(N, K)
+results = 1
+For i = 1 to K
+results = results * (N - (K - i))
+results = results / i
+Next
+nCk = results
+End Function
+
+Public Function nPk(N, K)
+results = 1
+For i = (N - K) + 1 to N
+results = results * i
+Next
+nPk = results
+End Function
+
+Public Function iAdd(re1, im1, re2, im2)
+iAdd = (re1 + re2) & " + " & (im1 + im2) & " i"
+End Function
+
+Public Function iSub(re1, im1, re2, im2)
+iSub = (re1 - re2) & " + " & (im1 - im2) & " i"
+End Function
+
+Public Function iMult(re1, im1, re2, im2)
+iMult = (re1*re2 - im1*im2) & " + " & (re1*im2 + re2*im1) & " i"
+End Function
+
+Public Function iDiv(re1, im1, re2, im2)
+iDiv = ((re1*re2 + im1*im2) / (re2*re2 + im2*im2)) & " + " & ((im1*re2 - re1*im2) / (re2*re2 + im2*im2)) & " i"
+End Function
+
+Public Function iSqrt(re, im)
+gamma = sqrt((re + sqrt(re*re + im*im))/2)
+sigma = sgn(im)*sqrt((-1*re + sqrt(re*re + im*im))/2)
+If (im = 0) And (re < 0) Then
+sigma = sqrt(-1*re)
+End If
+iSqrt = gamma & " + " & sigma & " i"
+End Function
+
+Public Function toDeg(x)
+toDeg = x * 180 / PI
+End Function
+
+Public Function toRad(x)
+toRad = x * PI / 180
+End Function
+
+Public Function bin(long_value)
+hex_string = hex(long_value)
+hex_string = Right(String(8, "0") & hex_string, 8)
+For digit_num = 8 To 1 Step -1
+digit_value = CLng("&H" & Mid(hex_string, digit_num, 1))
+factor = 1
+nibble_string = ""
+For bit = 3 To 0 Step -1
+If digit_value And factor Then
+nibble_string = "1" & nibble_string
+Else
+nibble_string = "0" & nibble_string
+End If
+factor = factor * 2
+Next
+result_string = nibble_string & result_string
+Next
+bin = CLng(result_string)
+End Function
+
+Public Function cross(x1, y1, z1, x2, y2, z2)
+s1 = y1*z2 - y2*z1
+s2 = -(x1*z2 - x2*z1)
+s3 = x1*y2 - x2*y1
+results = s1 & "i+" & s2 & "j+" & s3 & "k"
+results = replace(results, "+-", " - ")
+results = replace(results, "+", " + ")
+cross = results
+End Function
+
+Public Function dot(x1, y1, z1, x2, y2, z2)
+dot = x1*x2 + y1*y2 + z1*z2
+End Function
+
+Public Function toComp(mag, ang)
+s1 = mag * f2(ang)
+s2 = mag * f1(ang)
+results = s1 & "i+" & s2 & "j"
+results = replace(results, "+-", " - ")
+results = replace(results, "+", " + ")
+toComp = results
+End Function
+
+Public Function toCompZ(mag, ang1, ang2)
+s1 = mag * f2(ang1) * f1(ang2)
+s2 = mag * f1(ang1) * f1(ang2)
+s3 = mag * f2(ang2)
+results = s1 & "i+" & s2 & "j+" & s3 & "k"
+results = replace(results, "+-", " - ")
+results = replace(results, "+", " + ")
+toCompZ = results
+End Function
+
+Public Function toMagAng(x, y)
+If (deg = 1) Then
+angSign = "rad"
+Else
+angSign = "deg"
+End If
+mag = sqr(x*x + y*y)
+If (x > 0) Then
+ang = af3(y/x)
+ElseIf (x < 0) Then
+ang = af3(y/x) + PI/deg
+Else
+If (y > 0) Then
+ang = (PI/2)/deg
+ElseIf (y < 0) Then
+ang = (-PI/2)/deg
+Else
+ang = 0
+End If
+End If
+toMagAng = mag & " @ " & ang & " " & angSign
+End Function
+
+Public Function toMagAngZ(x, y, z)
+If (deg = 1) Then
+angSign = "rad"
+Else
+angSign = "deg"
+End If
+mag = sqr(x*x + y*y + z*z)
+ang2 = af2(z / mag)
+If (x > 0) Then
+ang1 = af3(y/x)
+ElseIf (x < 0) Then
+ang1 = af3(y/x) + PI/deg
+Else
+If (y > 0) Then
+ang1 = (PI/2)/deg
+ElseIf (y < 0) Then
+ang1 = (-PI/2)/deg
+Else
+ang1 = 0
+End If
+End If
+toMagAngZ = mag & " @ " & ang1 & " " & angSign & ", " & ang2 & " " & angSign
+End Function
+
+Public Function prime(n)
+If n <= 0 Then
+primeTest = 0
+ElseIf n = 1 Then
+primeTest = 2
+Else
+count = 1
+primeTest = 1
+While count < n
+primeTest =  primeTest + 2
+If isPrime(primeTest) Then
+count = count + 1
+End If
+WEnd
+End If
+prime = primeTest
+End Function
+
+Private Function isPrime(n)
+root = int(sqr(n))
+i = 3
+results = True
+While i <= root
+If (n mod i = 0) Then
+results = False
+i = root
+End If
+i = i + 2
+WEnd
+isPrime = results
+End Function
+
+Public Function fib(n)
+If n >= 3 Then
+fib = fib(n - 1) + fib(n - 2)
+ElseIf n <= -3 Then
+fib = fib(n + 2) - fib(n + 1)
+Else
+If n = 2 Or n = 1 Or n = -1 Then
+fib = 1
+ElseIf n = -2 Then
+fib = -1
+Else
+fib = 0
+End If
+End If
+End Function
+
+Public Function frac(n)
+frac = n - fix(n)
+End Function
+
+Public Function modulo(n, m)
+If m <> 0 Then
+modulo = n mod m
+Else
+modulo = "error"
+End If
+End Function
+
+Public Function sqrt(n)
+If n >= 0 Then
+sqrt = sqr(n)
+Else
+sqrt = "error"
+End If
+End Function
+
+Public Function ln(n)
+If n > 0 Then
+ln = log(n)
+Else
+ln = "error"
+End If
+End Function
+
+Public Function log10(n)
+If n > 0 Then
+log10 = log(n) / log(10)
+Else
+log10 = "error"
+End If
+End Function
+
+Public Function logbase(n, b)
+If n > 0 And b > 0 Then
+logbase = log(n) / log(b)
+Else
+logbase = "error"
+End If
+End Function
+
+Public Function fact(n)
+If n <> int(n) then
+fact = (n/e)^n*sqr(PI*(2*n+1/3))
+Else
+If n < 0 Then
+fact = -1 * fact(-n)
+ElseIf n < 1 Then
+fact = 1
+Else
+fact = n * fact(n-1)
+End If
+End If
+End Function
+
+Public Function f1(n)
+f1 = sin(n*deg)
+End Function
+
+Public Function f2(n)
+f2 = cos(n*deg)
+End Function
+
+Public Function f3(n)
+f3 = tan(n*deg)
+End Function
+
+Public Function af1(n)
+If n > -1 And n < 1 Then
+af1 = atn(n / sqr(1 - n * n)) / deg
+ElseIf n = -1 Then
+af1 = -PI / 2 / deg
+ElseIf n = 1 Then
+af1 = PI / 2 / deg
+Else
+af1 = "error"
+End If
+End Function
+
+Public Function af2(n)
+If n > 0 And n <= 1 Then
+af2 = atn(sqr(1 - n * n) / n) / deg
+ElseIf n < 0 And n >= -1 Then
+af2 = (atn(sqr(1 - n * n) / n) + PI) / deg
+ElseIf n = 0 Then
+af2 = PI / 2 / deg
+Else
+af2 = "error"
+End If
+End Function
+
+Public Function af3(n)
+af3 = atn(n) / deg
+End Function
+
+Public Function af4(x, y)
+If x > 0 Then
+af4 = atn(y/x) / deg
+ElseIf x < 0 Then
+temp = (atn(y/x) + PI * sgn(y)) / deg
+If y = 0 Then
+temp = temp + PI / deg
+End If
+af4 = temp
+Else
+af4 = PI/2 * sgn(y) / deg
+End If
+End Function
+
+Public Function csc(n)
+csc = 1 / f1(n)
+End Function
+
+Public Function sec(n)
+sec = 1 / f2(n)
+End Function
+
+Public Function cot(n)
+cot = 1 / f3(n)
+End Function
+
+Public Function acsc(n)
+acsc = af1(1/n)
+End Function
+
+Public Function asec(n)
+asec = af2(1/n)
+End Function
+
+Public Function acot(n)
+If n > 0 Then
+acot = af3(1/n)
+ElseIf n < 0 Then
+acot = (atn(1/n) + PI) / deg
+Else
+acot = PI/2/deg
+End If
+End Function
+
+Public Function sinh(n)
+sinh = (exp(n) - exp(-n)) / 2
+End Function
+
+Public Function cosh(n)
+cosh = (exp(n) + exp(-n)) / 2
+End Function
+
+Public Function tanh(n)
+tanh = (exp(n) - exp(-n)) / (exp(n) + exp(-n))
+End Function
+
+Public Function csch(n)
+csch = 2 / (exp(n) - exp(-n))
+End Function
+
+Public Function sech(n)
+sech = 2 / (exp(n) + exp(-n))
+End Function
+
+Public Function coth(n)
+coth = (exp(n) + exp(-n)) / (exp(n) - exp(-n))
+End Function
+
+Public Function asinh(n)
+asinh = ln(n + sqr(n*n + 1))
+End Function
+
+Public Function acosh(n)
+If n >= 1 Then
+acosh = ln(n + sqr(n*n - 1))
+Else
+acosh = "error"
+End If
+End Function
+
+Public Function atanh(n)
+If n > -1 And n < 1 Then
+atanh = 0.5 * ln((1 + n) / (1 - n))
+Else
+atanh = "error"
+End If
+End Function
+
+Public Function acsch(n)
+If n <> 0 Then
+acsch = ln(1/n + sqr(1 + n*n) / abs(n))
+Else
+acsch = "error"
+End If
+End Function
+
+Public Function asech(n)
+If n > 0 And n <= 1 Then
+asech = ln(1/n + sqr(1 - n*n) / n)
+Else
+asech = "error"
+End If
+End Function
+
+Public Function acoth(n)
+If n < -1 Or n > 1 Then
+acoth = 0.5 * ln((n + 1) / (n - 1))
+Else
+acoth = "error"
+End If
+End Function
+
+Public Function erf(x)
+s = 1 + e^(-(x^2))
+n = 1000
+h1 = x / n
+for i = 1 to n step 2
+s = s + 4 * e^(-((i*h1)^2))
+next
+for i = 2 to n - 1 step 2
+s = s + 2 * e^(-((i*h1)^2))
+next
+erf = 2/sqr(PI) * s * h1 / 3
+End Function
+
+Public Function erfInv(x)
+sign = sgn(x)
+x = (1-x)*(1+x)
+lnx = log(x)
+tt1 = 2/(PI*0.147) + 0.5*lnx
+tt2 = 1/0.147 * lnx
+erfInv = sign*sqr(-tt1 + sqr(tt1*tt1 - tt2))
+End Function
+
+Public Function invNorm(x)
+invNorm = sqr(2) * erfInv(2*x - 1)
+End Function
+
+Public Function invNorma(x, mu, sigma)
+invNorma = mu + sigma * invNorm(x)
+End Function
+
+Public Function normalCDF(a, b)
+normalCDF = 1/2 * (erf(b/sqr(2)) - erf(a/sqr(2)))
+End Function
+
+Public Function normalCDFa(a, b, mu, sigma)
+normalCDFa = normalCDF((a - mu)/sigma, (b - mu)/sigma)
+End Function
+
+Public Function normalPDF(x)
+normalPDF = 1/(sqr(2*PI))*e^(-1/2*x^2)
+End Function
+
+Public Function normalPDFa(x, mu, sigma)
+normalPDFa = 1/sigma * normalPDF((x - mu)/sigma)
+End Function
+
+Public Function binomCDF(n, p, s)
+temp = 0
+for i = 0 to int(s)
+temp = temp + binomPDF(n, p, i)
+next
+binomCDF = temp
+End Function
+
+Public Function binomPDF(n, p, s)
+binomPDF = nCk(n, s) * p^s * (1 - p)^(n - s)
+End Function
+
+Public Function xsqPDF(x, k)
+n = k/2 - 1
+f = (n/e)^n*sqr(PI*(2*n+1/3))
+xsqPDF = ((1/2)^(k/2))/f * x^(k/2 - 1) * e^(-x/2)
+End Function
+
+Public Function xsqCDF(a, b, k)
+s = xsqPDF(a, k) + xsqPDF(b, k)
+n = 500
+h1 = (b - a) / n
+for i = 1 to n step 2
+s = s + 4 * xsqPDF((a + i*h1), k)
+next
+for i = 2 to n - 1 step 2
+s = s + 2 * xsqPDF((a + i*h1), k)
+next
+xsqCDF = s * h1 / 3
+End Function
+
+Public Function poissonPDF(lambda, k)
+poissonPDF = (e^(-lambda)*lambda^k)/fact(k)
+End Function
+
+Public Function poissonCDF(lambda, k)
+s = 0
+for i = 0 to k
+s = s + (e^(-lambda)*lambda^i) / fact(i)
+next
+poissonCDF = s
+End Function
+
+Public Function geometPDF(p, n)
+If n = 0 Then
+geometPDF = 0
+Else
+geometPDF = p*(1-p)^(n-1)
+End If
+End Function
+
+Public Function geometCDF(p, n)
+geometCDF = 1 - (1-p)^n
+End Function
+
+Public Function tPDF(t, v)
+tPDF = fact((v+1)/2-1) / (sqr(v*PI)*fact(v/2-1)) * (1+t^2/v)^(-1/2*(v+1))
+End Function
+
+Public Function tCDF(a, b, v)
+s = tPDF(a, v) + tPDF(b, v)
+n = 500
+h1 = (b - a) / n
+for i = 1 to n step 2
+s = s + 4 * tPDF((a + i*h1), v)
+next
+for i = 2 to n - 1 step 2
+s = s + 2 * tPDF((a + i*h1), v)
+next
+tCDF = s * h1 / 3
+End Function
+
+Public Function fPDF(x, d1, d2)
+fPDF = (((d1*x)/(d1*x+d2))^(d1/2)*(1-(d1*x)/(d1*x+d2))^(d2/2)) / (x*((fact(d1/2-1)*fact(d2/2-1))/(fact(d1/2+d2/2-1))))
+End Function
+
+Public Function fCDF(a, b, d1, d2)
+s = fPDF(a, d1, d2) + fPDF(b, d1, d2)
+n = 500
+h1 = (b - a) / n
+for i = 1 to n step 2
+s = s + 4 * fPDF((a + i*h1), d1, d2)
+next
+for i = 2 to n - 1 step 2
+s = s + 2 * fPDF((a + i*h1), d1, d2)
+next
+fCDF = s * h1 / 3
+End Function

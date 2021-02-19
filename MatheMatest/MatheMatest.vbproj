@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{71BB86FB-1168-4645-A088-DE8EBB0A244C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>MatheMatest.My.MyApplication</StartupObject>
+    <RootNamespace>MatheMatest</RootNamespace>
+    <AssemblyName>MatheMatest</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MatheMatest.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MatheMatest.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Alecive-Flatwoken-Apps-Libreoffice-Math-B.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>MatheMatest.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>MatheMatest.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFeedback.Designer.vb">
+      <DependentUpon>FormFeedback.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormFeedback.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormM.Designer.vb">
+      <DependentUpon>FormM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMarker.Designer.vb">
+      <DependentUpon>FormMarker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormMarker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOpen.Designer.vb">
+      <DependentUpon>FormOpen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormOpen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPaper.Designer.vb">
+      <DependentUpon>FormPaper.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormPaper.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSelectBook.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSelectBook.Designer.vb">
+      <DependentUpon>FormSelectBook.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormC1.Designer.vb">
+      <DependentUpon>FormC1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormC1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormC2.Designer.vb">
+      <DependentUpon>FormC2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormC2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormD1.Designer.vb">
+      <DependentUpon>FormD1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormD1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFM1.Designer.vb">
+      <DependentUpon>FormFM1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormFM1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFP1.Designer.vb">
+      <DependentUpon>FormFP1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormFP1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModMain.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FormQandA.Designer.vb">
+      <DependentUpon>FormQandA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormQandA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPaperSet.Designer.vb">
+      <DependentUpon>FormPaperSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormPaperSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormQ.Designer.vb">
+      <DependentUpon>FormQ.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormQ.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFeedback.resx">
+      <DependentUpon>FormFeedback.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormM.resx">
+      <DependentUpon>FormM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMarker.resx">
+      <DependentUpon>FormMarker.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOpen.resx">
+      <DependentUpon>FormOpen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPaper.resx">
+      <DependentUpon>FormPaper.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSelectBook.resx">
+      <DependentUpon>FormSelectBook.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormC1.resx">
+      <DependentUpon>FormC1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormC2.resx">
+      <DependentUpon>FormC2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormD1.resx">
+      <DependentUpon>FormD1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFM1.resx">
+      <DependentUpon>FormFM1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFP1.resx">
+      <DependentUpon>FormFP1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormQandA.resx">
+      <DependentUpon>FormQandA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPaperSet.resx">
+      <DependentUpon>FormPaperSet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormQ.resx">
+      <DependentUpon>FormQ.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FP1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FM1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\border.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Brd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Brd1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thinking_Face_Emoji_large.png" />
+    <None Include="Resources\str8.png" />
+    <None Include="Resources\happy.png" />
+    <None Include="Resources\random2.png" />
+    <None Include="Resources\pencil2.png" />
+    <None Include="Resources\pencilgreen.png" />
+    <None Include="Resources\clear2.png" />
+    <None Include="Resources\House.png" />
+    <None Include="Resources\calculator - Copy.png" />
+    <None Include="Resources\Vector-Emoji-Sketch-and-Photoshop-2angry.png" />
+    <None Include="Resources\Vector-Emoji-Sketch-and-Photoshop-2str8.png" />
+    <None Include="Resources\Vector-Emoji-Sketch-and-Photoshop-2SMILE.png" />
+    <None Include="Resources\CLEARGREEN.png" />
+    <None Include="Resources\CLEAR.png" />
+    <None Include="Resources\download %281%29y.png" />
+    <None Include="Resources\download %281%29o.png" />
+    <None Include="Resources\download %281%29b.png" />
+    <None Include="Resources\download %281%291.png" />
+    <None Include="Resources\download %282%29y.png" />
+    <None Include="Resources\download %282%29o.png" />
+    <None Include="Resources\download %282%29b.png" />
+    <None Include="Resources\download %282%291.png" />
+    <None Include="Resources\download %282%29.png" />
+    <None Include="Resources\download %281%29.png" />
+    <None Include="Resources\download1.png" />
+    <None Include="Resources\fp1boat.png" />
+    <None Include="Resources\downloadORANGE.png" />
+    <None Include="Resources\download.png" />
+    <None Include="Resources\fm1arc.png" />
+    <None Include="Resources\downloadGREEEEEEEEEEEEEEEEEN.png" />
+    <None Include="Resources\random_1294119GREEEEEEEEEEEEN.png" />
+    <None Include="Resources\calculator.png" />
+    <None Include="Resources\93634.png" />
+    <None Include="Resources\936341.png" />
+    <None Include="Resources\button-home-house-icon-ndash-free-icons-download-83742.png" />
+    <None Include="Resources\34022.png" />
+    <None Include="Resources\18568.png" />
+    <None Include="Resources\34022g.png" />
+    <None Include="Resources\34022r.png" />
+    <None Include="Resources\154910634887195497.png" />
+    <None Include="Resources\1537976332308.jpg" />
+    <Content Include="Alecive-Flatwoken-Apps-Libreoffice-Math-B.ico" />
+    <None Include="Resources\1549566231574687171.png" />
+    <None Include="Resources\BackOpen.png" />
+    <None Include="Resources\1549566231574687172.png" />
+    <None Include="Resources\280-200.png" />
+    <None Include="Resources\18568 - Copy.png" />
+    <None Include="Resources\18568 - Copy1.png" />
+    <None Include="Resources\back-icon-png-white1.png" />
+    <None Include="Resources\angry.png" />
+    <Content Include="Resources\c1b.jpg" />
+    <None Include="Resources\Untitled.png" />
+    <None Include="Resources\fp1b.jpg" />
+    <None Include="Resources\fm1b.jpg" />
+    <None Include="Resources\d1b.jpg" />
+    <None Include="Resources\c2b.jpg" />
+    <None Include="Resources\c1b1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Photon\Photon\Graphing.vbproj">
+      <Project>{1aab84f9-5633-496c-a2fa-14a9b5a7b0ba}</Project>
+      <Name>Graphing</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

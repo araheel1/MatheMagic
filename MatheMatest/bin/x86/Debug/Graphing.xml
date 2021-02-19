@@ -1,0 +1,126 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Graphing
+</name>
+</assembly>
+<members>
+<member name="T:Graphing.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Graphing.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Graphing.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Graphing.My.Resources.Resources.book_ico">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Graphing.My.Resources.Resources.code_ico">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Graphing.My.Resources.Resources.data_ico">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Graphing.My.Resources.Resources.Functions">
+<summary>
+  Looks up a localized string similar to Public Function LCM(n1, n2)
+a = int(n1)
+b = int(n2)
+lcm = (a/gcf(a, b))*b
+End Function
+
+Public Function GCF(n1, n2)
+p = Int(Abs(n1))
+q = Int(Abs(n2))
+temp = 0
+While (q &lt;&gt; 0)
+temp = p Mod q
+p = q
+q = temp
+Wend
+gcf = p
+End Function
+
+Public Function nCk(N, K)
+results = 1
+For i = 1 to K
+results = results * (N - (K - i))
+results = results / i
+Next
+nCk = results
+End Function
+
+Public Function nPk(N, K)
+results = 1
+For i = (N - K) + 1 to N
+results = results * i
+Next
+nPk = results
+En [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:Graphing.My.Resources.Resources.gear_ico">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Graphing.My.Resources.Resources.grammar">
+<summary>
+  Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;
+&lt;grammar version=&quot;1.0&quot; xml:lang=&quot;en-US&quot; mode=&quot;voice&quot; root=&quot;topLevel&quot;
+xmlns=&quot;http://www.w3.org/2001/06/grammar&quot; tag-format=&quot;semantics/1.0&quot;&gt;
+  &lt;rule id=&quot;topLevel&quot;&gt;
+    &lt;one-of&gt;
+      &lt;item&gt; &lt;ruleref uri=&quot;#symbol&quot;/&gt; &lt;/item&gt;
+      &lt;item&gt; data &lt;/item&gt;
+      &lt;item&gt; matrix &lt;/item&gt;
+      &lt;item&gt; &lt;ruleref uri=&quot;#togglefractionmode&quot;/&gt; &lt;/item&gt;
+      &lt;item&gt; &lt;ruleref uri=&quot;#toggleradianmode&quot;/&gt; &lt;/item&gt;
+      &lt;item&gt; clear &lt;/item&gt;
+      &lt;item&gt; go &lt;/item&gt;
+	  &lt;item&gt; cancel &lt;/i [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:Graphing.My.Resources.Resources.graph_ico">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Graphing.My.Resources.Resources.matrix_ico">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Graphing.My.Resources.Resources.Microphone_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Graphing.My.Resources.Resources.scale_ico">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Graphing.My.Resources.Resources.table_ico">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

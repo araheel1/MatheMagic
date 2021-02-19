@@ -1,0 +1,176 @@
+Absolute value: equality	|x|=a\\\hspace{20}x=-a\\\hspace{20}x=a
+Absolute value: greater than	|x|>a\\\hspace{20}x<-a\\\hspace{20}x>a
+Absolute value: less than	|x|<a\\\hspace{20}-a<x<a
+Addition of fractions	\frac{a}{b}+\frac{c}{d}=\frac{ad+bc}{bd}
+Approximate integration: midpoint rule	\int_a^b{f(x)}dx\approx\Delta{x}\left[f(\bar{x}_1)+f(\bar{x}_2)+\cdot\cdot\cdot+f(\bar{x}_n)\right]\\\Delta{x}=\frac{b-a}{n}\\\bar{x}_i=\frac{1}{2}(x_{i-1}+x_i)=midpoint\hspace{5}of\hspace{5}[x_{i-1},x_i]
+Approximate integration: Simpson's rule	\int_a^b{f(x)}dx\approx\frac{\Delta{x}}{3}[f(x_0)+4f(x_1)+2f(x_2)+4f(x_3)+\cdot\cdot\cdot\\\hspace{50}+2f(x_{n-2})+4f(x_{n-1})+f(x_n)]\\n\hspace{5}is\hspace{5}even\hspace{5}and\hspace{5}\Delta{x}=\frac{(b-a)}{n}
+Approximate integration: trapezoidal rule	\int_a^b{f(x)}dx\approx\frac{\Delta{x}}{2}[f(x_0)+2f(x_1)+2f(x_2)\\\hspace{50}+\cdot\cdot\cdot+2f(x_{n-1})+f(x_n)]\\\Delta{x}=\frac{b-a}{n}\hspace{5}and\hspace{5}x_i=a+i\Delta{x}
+Arc length in polar coordinates	L=\int_a^b{sqrt{r^2+\(\frac{dr}{d\theta}\)}}d\theta
+Arc length integral	L=\int_a^b{sqrt{1+\(\frac{dy}{dx}\)^2}}dx\\L=\int_c^d{sqrt{1+\(\frac{dx}{dy}\)^2}}dy
+Arc length of a parametric equation	L=\int_a^b{sqrt{\(\frac{dx}{dt}\)^2+\(\frac{dy}{dt}\)^2}}dt
+Arc length of a parametric equation (3D)	L=\int_a^b{sqrt{\(\frac{dx}{dt}\)^2+\(\frac{dy}{dt}\)^2+\(\frac{dz}{dt}\)^2}}dt
+Area in polar coordinates	A=\int_a^b{\frac{1}{2}\cdot[{r}(\theta)}]^2d\theta\\A=\int_a^b{\frac{1}{2}{\cdot}\[r_1(\theta)^2-r_2(\theta)^2\]}d\theta
+Area of a circle	A={\pi}r^2\hspace{20}\picture(80,80){(40,40){\circle(80)}(40,40){\line(40)}(60,45){r}(40,37){\bullet}}
+Area of a parallelogram	A=base\hspace{5}{\times}\hspace{5}height
+Area of a rectangle	A=length\hspace{5}{\times}\hspace{5}width
+Area of a square	A=side^2
+Area of a trapezoid	\frac{height\hspace{5}{\times}\hspace{5}(base_1+base_2)}{2}
+Area of a triangle	\left\sp{A}=\frac{1}{2}bh\\A=\frac{1}{2}ab\sin(\theta)\right\sp\hspace{20}\picture(110,70){(0,20){\line(110)}(80,20){\line(0,40)}(0,20){\line(80,40)}(110,20){\line(-30,40)}(33,45){a}(47,3){b}(32,22){\theta}(67,30){h}}
+Area under a parametric equation	A=\int_a^b{y(t)x'(t)}dt
+Arithmetic partial sum	S_n=n\cdot\(\frac{a_1+a_n}{2}\)
+Associative law for addition	(a+b)+c=a+(b+c)
+Associative law for multiplication	(ab)c=a(bc)
+Average of a set of numbers	avg.=\frac{a_1+a_2+a_3+...}{n}
+Average value of a function	f_{avg}=\frac{1}{b-a}\int_a^b{f(x)}dx
+Binomial series	(1+x)^k=\sum_{n=0}^{\infty}\(k\\n\)x^n=1+kx+\frac{k(k-1)}{2!}x^2\\\hspace{80}+\frac{k(k-1)(k-2)}{3!}x^3+\cdot\cdot\cdot\\|x|<1
+Binomial theorem (FOIL)	(x+y)^2=x^2+2xy+y^2
+Binomial theorem (general)	(x+y)^n=x^n+n{\cdot}x^{(n-1)}{\cdot}y+\frac{n(n-1)}{2}{\cdot}x^{(n-2)}{\cdot}y^2\\\hspace{65}+\cdot\cdot\cdot+\(n\\k\){\cdot}x^{(n-k)}{\cdot}y^k+\cdot\cdot\cdot+n{\cdot}x{\cdot}y^{(n-1)}+y^n\\\(n\\k\)=\frac{n(n-1)\cdot\cdot\cdot(n-k+1)}{1\cdot2\cdot3\cdot\cdot\cdot{k}}
+Center of mass	\bar{x}=\frac{1}{A}\int_a^b{xf(x)}dx\\\bar{y}=\frac{1}{A}\int_a^b{\frac{1}{2}[f(x)]^2}dx
+Change of variables in a double integral	\int_R\int{f(x,y)}dA=\int_S\int{f(x(u,v),{\hspace{5}}y(u,v))\|\frac{\delta(x,y)}{\delta(u,v)}\|}dudv
+Change of variables in a triple integral	\int\int_R\int{f(x,y,z)}dV=\\\int\int_S\int{f(x(u,v,w),{\hspace{5}}y(u,v,w),\hspace{5}z(u,v,w))\|\frac{\delta(x,y,z)}{\delta(u,v,w)}\|}dudvdw
+Circumference of a circle	C=2{\pi}r\hspace{20}\picture(80,80){(40,40){\circle(80)}(40,40){\line(40)}(60,45){r}(40,37){\bullet}}
+Combinations	_nC_r=\(n\\r\)=\frac{n!}{(n-r)!r!}
+Common denominators	\frac{a+c}{b}=\frac{a}{b}+\frac{c}{b}
+Commutative law for addition	a+b=b+a
+Commutative law for multiplication	ab=ba
+Conic sections in polar coordinates	r=\frac{ed}{1\pm{e}\cos(\theta)}\hspace{40}r=\frac{ed}{1\pm{e}\sin(\theta)}\\where\hspace{5}e\hspace{5}is\hspace{5}the\hspace{5}eccentricity\\e<1{\right}ellipse\\e=1{\right}parabola\\e>1{\right}hyperbola
+Conic sections: ellipses	\frac{x^2}{a^2}+\frac{y^2}{b^2}=1\hspace{30}a\ge{b}\gt0\\foci\hspace{5}(\pm{c},0)\hspace{5}where\hspace{5}c=a^2-b^2\\with\hspace{5}vertices\hspace{5}(\pm{a},0)\\\frac{x^2}{b^2}+\frac{y^2}{a^2}=1\hspace{30}a\ge{b}\gt{0}\\foci\hspace{5}(0,\pm{c})\hspace{5}where\hspace{5}c=a^2-b^2\\with\hspace{5}vertices\hspace{5}(0,\pm{a})
+Conic sections: ellipses in polar	r=\frac{a(1-e^2)}{1+e\cos(\theta)}\\perihelion=a(1-e)\\aphelion=a(1+e)
+Conic sections: hyperbola	\frac{x^2}{a^2}-\frac{y^2}{b^2}=1\hspace{30}foci\hspace{5}(\pm{c},0)\hspace{5}where\hspace{5}c^2=a^2+b^2\\vertices\hspace{5}(\pm{a},0)\hspace{15}asymptotes\hspace{5}y=\pm\(\frac{b}{a}\)x\\\frac{y^2}{a^2}-\frac{x^2}{b^2}=1\hspace{30}foci\hspace{5}(0,\pm{c})\hspace{5}where\hspace{5}c^2=a^2+b^2\\vertices\hspace{5}(0,\pm{a})\hspace{15}asymptotes\hspace{5}y=\pm\(\frac{a}{b}\)x
+Conic sections: parabolas	x^2=4py\\focus\hspace{5}(0,p)\hspace{5}directrix\hspace{5}y=-p\\y^2=4px\\focus\hspace{5}(p,0)\hspace{5}directrix\hspace{5}x=-p
+Curl (vector)	curl\hspace{5}\vec{F}=\nabla\times\vec{F}
+Cylindrical coordinates	x=r\cos(\theta)\hspace{20}y=r\sin(\theta)\hspace{20}z=z\\r^2=x^2+y^2\hspace{20}\tan(\theta)=\frac{y}{x}
+Cylindrical triple integrals	\int\int_E\int{f(x,y,z)}dV=\\\int\nolimits_\alpha^\beta\int\nolimits_{h_1(\theta)}^{h_2(\theta)}\int\nolimits_{u_1(r\cos\theta,r\sin\theta)}^{u_2(r\cos\theta,r\sin\theta)}{f(r\cos\theta,r\sin\theta)}rdzdrd\theta
+Definition of curvature	\kappa(t)=\frac{|\vec{T'}(t)|}{|\vec{r'}(t)|}=\frac{|\vec{r'}(t)\times\vec{r''}(t)|}{|\vec{r'}(t)|^3}
+Derivatives: chain rule	\frac{d}{dx}f(g(x))=g'(x)f'(g(x))
+Derivatives: definition	f'(x)=\lim_{h\right0}\frac{f(x+h)-f(x)}{h}
+Derivatives: exponential	\frac{d}{dx}(e^x)=e^x\\\frac{d}{dx}(a^x)=\ln(a){\cdot}a^x
+Derivatives: general	\frac{d}{dx}(c)=0\\\frac{d}{dx}[cf(x)]=cf'(x)\\\frac{d}{dx}[f(x)+g(x)]=f'(x)+g'(x)\\\frac{d}{dx}[f(x)-g(x)]=f'(x)-g'(x)
+Derivatives: hyperbolic trigonometry	\frac{d}{dx}(\sinh{x})=\cosh{x}\hspace{31}\frac{d}{dx}[csch(x)]=-csch(x)coth(x)\\\frac{d}{dx}(\cosh{x})=\sinh{x}\hspace{30}\frac{d}{dx}[sech(x)]=-sech(x)tanh(x)\\\frac{d}{dx}(\tanh{x})=sech^2x\hspace{14}\frac{d}{dx}[coth(x)]=-csch^2x
+Derivatives: inverse hyperbolic trigonometry	\frac{d}{dx}(\sinh^{-1}x)=\frac{1}{sqrt{1+x^2}}\hspace{30}\frac{d}{dx}[csch^{-1}x]=-\frac{1}{|x|sqrt{x^2+1}}\\\frac{d}{dx}(\cosh^{-1}x)=\frac{1}{sqrt{x^2-1}}\hspace{34}\frac{d}{dx}[sech^{-1}x]=-\frac{1}{{x}sqrt{1-x^2}}\\\frac{d}{dx}(\tanh^{-1}x)=\frac{1}{1-x^2}\hspace{41}\frac{d}{dx}[coth^{-1}x]=\frac{1}{1-x^2}
+Derivatives: inverse trigonometry	\frac{d}{dx}(\sin^{-1}x)=\frac{1}{sqrt{1-x^2}}\hspace{36}\frac{d}{dx}(\csc^{-1}x)=-\frac{1}{{x}sqrt{x^2-1}}\\\frac{d}{dx}(\cos^{-1}x)=-\frac{1}{sqrt{1-x^2}}\hspace{20}\frac{d}{dx}(\sec^{-1}x)=\frac{1}{{x}sqrt{x^2-1}}\\\frac{d}{dx}(\tan^{-1}x)=\frac{1}{1+x^2}\hspace{40}\frac{d}{dx}(\cot^{-1}x)=-\frac{1}{1+x^2}
+Derivatives: logarithmic	\frac{d}{dx}[\ln|x|]=\frac{1}{x}\\\frac{d}{dx}[\log_a(x)]=\frac{1}{x\ln(a)}
+Derivatives: power rule	\frac{d}{dx}(x^n)=nx^{n-1}
+Derivatives: product rule	\frac{d}{dx}[f(x)g(x)]=f(x)g'(x)+f'(x)g(x)
+Derivatives: quotient rule	\frac{d}{dx}\left[\frac{f(x)}{g(x)}\right]=\frac{g(x)f'(x)-f(x)g'(x)}{[g(x)]^2}
+Derivatives: trigonometry	\frac{d}{dx}(\sin{x})=\cos{x}\hspace{40}\frac{d}{dx}(\csc{x})=-\csc{x}\cot{x}\\\frac{d}{dx}(\cos{x})=-\sin{x}\hspace{24}\frac{d}{dx}(\sec{x})=\sec{x}\tan{x}\\\frac{d}{dx}(\tan{x})=\sec^2{x}\hspace{26}\frac{d}{dx}(\cot{x})=-\csc^2{x}
+Directional derivative	D_uf(x,y,z)=\nabla{f}(x,y,z)\cdot\vec{u}
+Distance formula	d=sqrt{(x_2-x_1)^2+(y_2-y_1)^2}
+Distance formula in 3D	|P_1P_2|=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}
+Distance from point to plane	D=\frac{|ax_1+by_1+cz_1+d|}{sqrt{a^2+b^2+c^2}}
+Distributive law	a(b+c)=ab+ac
+Divergence (vector)	div\hspace{5}\vec{F}=\nabla\cdot\vec{F}
+Divergence theorem	\int_S\int\vec{F}\cdot{d}\vec{S}=\int\int_E\int{div}\vec{F}dV
+Division of fractions	\frac{a/b}{c/d}=\frac{a}{b}\times\frac{d}{c}=\frac{ad}{bc}
+Double integral in polar coordinates	\int_R\int{f(x,y)}dA=\int_\alpha^\beta\int_a^b{f(r\cos(\theta),\hspace{5}r\sin(\theta))}rdrd\theta
+Equation of a circle	(x-h)^2+(y-k)^2=r^2
+Equation of a cone	\frac{z^2}{c^2}=\frac{x^2}{a^2}+\frac{y^2}{b^2}
+Equation of a hyperbolic paraboloid	\frac{z}{c}=\frac{x^2}{a^2}-\frac{y^2}{b^2}
+Equation of a hyperboloid of one sheet	\frac{x^2}{a^2}+\frac{y^2}{b^2}-\frac{z^2}{c^2}=1
+Equation of a hyperboloid of two sheets	{-}\frac{x^2}{a^2}-\frac{y^2}{b^2}+\frac{z^2}{c^2}=1
+Equation of a sphere (3D)	(x-h)^2+(y-k)^2+(z-l)^2=r^2
+Equation of an ellipsoid	\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=1
+Equation of an elliptic paraboloid	\frac{z}{c}=\frac{x^2}{a^2}+\frac{y^2}{b^2}
+Euler's method	y_n=y_{n-1}+hF(x_{n-1},y_{n-1})\hspace{20}n=1,2,3...
+Exponent powers of powers	(x^m)^n=x^{mn}\\x^m^n=x^{(m^n)}
+Exponent products	x^mx^n=x^{m+n}\\(ab)^n=a^nb^n
+Exponent quotients	\frac{x^m}{x^n}=x^{m-n}\\(\frac{x}{y})^n=\frac{x^n}{y^n}
+Exponential function definition	f(x)=a^x
+Exponents and (square) roots	sqrt{x}=x^{1/2}\\{^n}sqrt{x^m}=x^{m/n}\\{^n}sqrt{xy}={^n}sqrt{x}\times{^n}sqrt{y}\\{^n}sqrt{\frac{x}{y}}=\frac{{^n}sqrt{x}}{{^n}sqrt{y}}
+Factoring difference of cubes	x^3-y^3=(x-y)(x^2+xy+y^2)
+Factoring difference of squares	x^2-y^2=(x+y)(x-y)
+Factoring sum of cubes	x^3+y^3=(x+y)(x^2-xy+y^2)
+Geometric partial sum	S_n=a_1\(\frac{1-r^n}{1-r}\)
+Geometric series	S=\sum_{n=1}^{\infty}\nosmash{ar^{n-1}}=\frac{a}{1-r}\hspace{30}|r|<1
+Gradient vector	\nabla{f}(x,y)=\<f_x,\hspace{5}f_y,\hspace{5}f_z\>=\frac{\delta{f}}{\delta{x}}\hat{i}+\frac{\delta{f}}{\delta{y}}\hat{j}+\frac{\delta{f}}{\delta{z}}\hat{k}
+Green's theorem	\int_C{Pdx+Qdy}=\int_D\int{\(\frac{\delta{Q}}{\delta{x}}-\frac{\delta{P}}{\delta{y}}\)}dA
+Green's theorem (vector)	\oint\vec{F}\cdot\vec{n}ds=\int_D\int{div\vec{F}(x,y)}dA
+Green's theorem: area	A=\oint_C{x}dy-\oint_C{y}dx=\frac{1}{2}\oint_C{xdy-ydx}
+Half life / doubling time	t_{1/2}=\frac{\ln(2)}{k}
+Integrals: definition	\int_a^b{f(x)}dx=\lim_{n\right\infty}\sum_{i=1}^{n}f(x_i)\Delta{x}\\\Delta{x}=\frac{b-a}{n}\\x_i=a+i\Delta{x}
+Integrals: fundamental theorem	g(x)=\int_a^x{f(t)}dt{\right}g'(x)=f(x)\\\int_a^bf(x)dx=F(b)-F(a)\\\hspace{50}F'=f
+Integrals: general	\int{x^n}dx=\frac{x^{n+1}}{n+1}+C\hspace{30}(n\ne1)\\\int{\frac{1}{x}}dx=ln|x|+C\\\int{e^x}dx=e^x+C\\\int{a^x}dx=\frac{a^x}{\ln{a}}+C
+Integrals: other	\int{\frac{dx}{x^2+a^2}}=\frac{1}{a}\tan^{-1}(\frac{x}{a})+C\\\int{\frac{dx}{x^2-a^2}}=\frac{1}{2a}\ln{\left|\frac{x-a}{x+a}\right|}+C\\\int{\frac{dx}{sqrt{a^2-x^2}}}=\sin^{-1}(\frac{x}{a})+C\hspace{30}a>0\\\int{\frac{dx}{sqrt{x^2{\pm}a^2}}}=\ln\left|x+sqrt{x^2{\pm}a^2}\right|+C
+Integrals: parts	\int{u}dv=uv-\int{v}du
+Integrals: trigonometric (1)	\int{\sin(x)}dx=-\cos{x}+C\hspace{25}\int{\sec^2(x)}dx=\tan{x}+C\\\int{\cos(x)}dx=\sin{x}+C\hspace{40}\int{\csc^2(x)}dx=-\cot{x}+C\\\int{\sec(x)\tan(x)}dx=\sec{x}+C\hspace{10}\int{\sec(x)}dx=\ln|\sec{x}+\tan{x}|+C
+Integrals: trigonometric (2)	\int{\csc(x)\cot(x)}dx=-\csc{x}+C\hspace{10}\int{\csc(x)}dx=\ln|\csc{x}-\cot{x}|+C\\\int{\tan(x)}dx=\ln|\sec{x}|+C\hspace{30}\int{\sinh(x)}dx=\cosh{x}+C\\\int{\cot(x)}dx=\ln|\sin{x}|+C\hspace{32}\int{\cosh(x)}dx=\sinh{x}+C
+Integrals: u-substitution	\int{f(g(x))g'(x)}dx=\int{f(u)}du
+Jacobian	\frac{\delta(x,y)}{\delta(u,v)}=\|\frac{\delta{x}}{\delta{u}}\hspace{20}\frac{\delta{x}}{\delta{v}}\\\frac{\delta{y}}{\delta{u}}\hspace{20}\frac{\delta{y}}{\delta{v}}\|=\frac{\delta{x}}{\delta{u}}\cdot\frac{\delta{y}}{\delta{v}}-\frac{\delta{x}}{\delta{v}}\cdot\frac{\delta{y}}{\delta{u}}\\where\\x=g(u,v)\\y=h(u,v)
+Lagrange multiplier	\nabla{f}(x_0,y_0,z_0)=\lambda\nabla{g}(x_0,y_0,z_0)
+Law of cosines	\left\sp{a}^2=b^2+c^2-2bc\cos(A)\\{b}^2=a^2+c^2-2ac\cos(B)\\{c}^2=a^2+b^2-2ab\cos(C)\right\sp\hspace{20}\picture(140,80){(0,15){\small{B}}(15,20){\line(110)}(124,20){\line(-30,40)}(15,20){\line(80,40)}(48,45){c}(62,3){a}(115,40){b}(127,14){\small{C}}(90,63){\small{A}}}
+Law of sines	\frac{a}{\sin(A)}=\frac{b}{\sin(B)}=\frac{c}{\sin(C)}\hspace{20}\picture(140,80){(0,15){\small{B}}(15,20){\line(110)}(124,20){\line(-30,40)}(15,20){\line(80,40)}(48,45){c}(62,3){a}(115,40){b}(127,14){\small{C}}(90,63){\small{A}}}
+L'Hospital's rule	\lim_{x\right{a}}\frac{f(x)}{g(x)}=\lim_{x\right{a}}\frac{f'(x)}{g'(x)}\hspace{30}iff\hspace{10}\frac{0}{0}\hspace{10}or\hspace{10}\frac{\infty}{\infty}
+Line integral	\int_C{f(x,y)}ds=\int_a^b{f(x(t),y(t))\sqrt{\(\frac{dx}{dt}\)^2+\(\frac{dy}{dt}\)^2}}dt
+Line integral through a vector field	\int_C{\vec{F}\cdot}d\vec{r}=\int_a^b{\vec{F}(\vec{r}(t))\cdot\vec{r'}(t)}dt=\int_C{\vec{F}\cdot\vec{T}}ds\\\hspace{68}=\int_C{Pdx+Qdy+Rdz}
+Linear function: general form	ax+by=c
+Linear function: point-slope form	y-y_0=m(x-x_0)
+Linear function: slope-intercept form	y=mx+b
+Logarithms: cancellation	\log_a(a^x)=x\\a^{\log_a(x)}=x\\\log_a(1)=0
+Logarithms: power rule	\log_a(x^r)=r\log_a(x)
+Logarithms: product rule	\log_a(xy)=\log_a(x)+\log_a(y)
+Logarithms: quotient rule	\log_a(\frac{x}{y})=\log_a(x)-\log_a(y)
+Maclaurin series	f(x)=\sum_{n=0}^{\infty}\frac{f^{(n)}(0)}{n!}x^n=f(0)+\frac{f'(0)}{1!}x+\frac{f''(0)}{2!}x^2+\cdot\cdot\cdot
+Midpoint formula	Mid=(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2})
+Monthly payment on a mortage	payment=\frac{P\cdot{\frac{r}{n}}}{1-(1+\frac{r}{n})^{-nt}}
+Negative exponents	x^{-n}=\frac{1}{x^n}
+Newton's method	x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)}
+Nth term of arithmetic sequence	a_n=a_1+(n-1)\cdot{d}
+Nth term of geometric sequence	a_n=a_1{\cdot}r^{n-1}
+P series	\sum_{n=1}^{\infty}\frac{1}{n^p}\hspace{40}convergent\hspace{5}iff\hspace{5}p>1
+Parametric equation of a line	x=x_0+at\\y=y_0+bt\\z=z_0+ct\\\frac{x-x_0}{a}=\frac{y-y_0}{b}=\frac{z-z_0}{c}
+Permutations	_nP_r=\frac{n!}{(n-r)!}
+Polar coordinate definitions	x=r\cos(\theta)\hspace{30}y=r\sin(\theta)\\r^2=x^2+y^2\hspace{25}\tan(\theta)=\frac{y}{x}
+Polynomial function definition	P(x)=a_nx^n+a_{n-1}x^{n-1}+\cdot\cdot\cdot+a_2x^2+a_1x+a_0
+Power series	\sum_{n=0}^{\infty}\nosmash{c_n}(x-a)^n=c_0+c_1(x-a)+c_2(x-a)^2+\cdot\cdot\cdot
+Powers of i (imaginary numbers)	i^1=i\\i^2=-1\\i^3=-i\\i^4=1
+Pythagorean theorem	a^2+b^2=c^2
+Quadratic formula	x=\frac{-b{\pm}sqrt{b^2-4ac}}{2a}
+Quadratic function: standard form	f(x)=ax^2+bx+c
+Quadratic function: vertex form	f(x)=a(x-h)^2+k
+Rational function definition	f(x)=\frac{P(x)}{Q(x)}
+Spherical coordinates	x=\rho\sin\phi\cos\theta\hspace{30}y=\rho\sin\phi\sin\theta\hspace{30}z=\rho\cos\phi\\\rho^2=x^2+y^2+z^2
+Spherical triple integrals	\int\int_E\int{f(x,y,z)}dV=\\\int_c^d\int_\alpha^\beta\int_a^b{f(\rho\sin\phi\cos\theta,\rho\sin\phi\sin\theta,\rho\cos\phi)}\rho^2\sin\phi{d}\rho{d}\theta{d}\phi
+Standard deviation (population)	\sigma=\sqrt{\frac{1}{N}\sum_{i=1}^N(x_i-\mu)^2}
+Standard deviation (sample)	s=\sqrt{\frac{1}{N-1}\sum_{i=1}^N(x_i-\bar{x})^2}
+Stoke's theorem	\int_C\vec{F}\cdot{d}\vec{r}=\int_S\int{curl}\vec{F}\cdot{d}\vec{S}
+Surface area of 3D parametric surface	A(S)=\int_D\int|\vec{r_u}\times\vec{r_v}|dA\\where\\\vec{r}(u,v)=x(u,v)\hat{i}+y(u,v)\hat{j}+z(u,v)\hat{k}
+Surface area of a 3D surface function	A(S)=\int_D\int{\sqrt{1+\(\frac{\delta{z}}{\delta{x}}\)^2+\(\frac{\delta{z}}{\delta{y}}\)^2}}dA
+Surface area of a cone	A={\pi}{r}sqrt{r^2+h^2}
+Surface area of a parametric revolution	S=\int_a^b{2{\pi}\cdot{y(t)}sqrt{\(\frac{dx}{dt}\)^2+\(\frac{dy}{dt}\)^2}}dt\\x-axis\hspace{5}rotation\\S=\int_a^b{2{\pi}\cdot{x(t)}sqrt{\(\frac{dx}{dt}\)^2+\(\frac{dy}{dt}\)^2}}dt\\y-axis\hspace{5}rotation
+Surface area of a sphere	A=4{\pi}r^2
+Surface area of revolution	S=\int_a^b{2{\pi}y\sqrt{1+\(\frac{dy}{dx}\)^2}}dx\\x-axis\hspace{5}rotation\\S=\int_c^d{2{\pi}x\sqrt{1+\(\frac{dx}{dy}\)^2}}dy\\y-axis\hspace{5}rotation
+Surface integral	\int_S\int{f(x,y,z)}dS=\int_D\int{f(\vec{r}(u,v))|\vec{r_u}\times\vec{r_v}|}dA
+Surface integral over vector field	\int_S\int\vec{F}\cdot{d}\vec{S}=\int_D\int\vec{F}\cdot(\vec{r_u}\times\vec{r_v})dA
+Tangent plane to 3D surface	z-z_0=f_x(x_0,y_0)(x-x_0)+f_y(x_0,y_0)(y-y_0)
+Taylor series	f(x)=\sum_{n=0}^{\infty}\frac{f^{(n)}(a)}{n!}(x-a)^n=f(a)+\frac{f'(a)}{1!}(x-a)\\\hspace{90}+\frac{f''(a)}{2!}(x-a)^2+\frac{f'''(a)}{3!}(x-a)^3+\cdot\cdot\cdot
+Trig identities: co-function	\sin(\theta)=\cos(\frac{\pi}{2}-\theta)\hspace{20}\cos(\theta)=\sin(\frac{\pi}{2}-\theta)\\\csc(\theta)=\sec(\frac{\pi}{2}-\theta)\hspace{24}\sec(\theta)=\csc(\frac{\pi}{2}-\theta)\\\tan(\theta)=\cot(\frac{\pi}{2}-\theta)\hspace{15}\cot(\theta)=\tan(\frac{\pi}{2}-\theta)
+Trig identities: double angle	\sin(2u)=2\sin(u)\cos(u)\\\cos(2u)=\cos^2(u)-\sin^2(u)\\\hspace{71}=2\cos^2(u)-1\\\hspace{71}=1-2\sin^2(u)\\\tan(2u)=\frac{2\tan(u)}{1-\tan^2(u)}
+Trig identities: even-odd	\sin(-\theta)=-\sin(\theta)\hspace{30}\csc(-\theta)=-\csc(\theta)\\\cos(-\theta)=\cos(\theta)\hspace{49}\sec(-\theta)=\sec(\theta)\\\tan(-\theta)=-\tan(\theta)\hspace{21}\cot(-\theta)=-\cot(\theta)
+Trig identities: half angle	\sin(\frac{u}{2})={\pm}sqrt{\frac{1-\cos(u)}{2}}\\\cos(\frac{u}{2})={\pm}sqrt{\frac{1+\cos(u)}{2}}\\\tan(\frac{u}{2})={\pm}sqrt{\frac{1-\cos(u)}{1+\cos(u)}}\\\hspace{68}=\frac{\sin(u)}{1+\cos(u)}\\\hspace{68}=\frac{1-\cos(u)}{\sin(u)}
+Trig identities: hyperbolic	\sinh(x)=\frac{e^x-e^{-x}}{2}\hspace{30}csch(x)=\frac{1}{\sinh(x)}\\\cosh(x)=\frac{e^x+e^{-x}}{2}\hspace{30}sech(x)=\frac{1}{\cosh(x)}\\\tanh(x)=\frac{\sinh(x)}{\cosh(x)}\hspace{36}coth(x)=\frac{\cosh(x)}{\sinh(x)}
+Trig identities: Pythagorean	\sin^2(\theta)+\cos^2(\theta)=1\\1+\tan^2(\theta)=\sec^2(\theta)\\1+\cot^2(\theta)=\csc^2(\theta)
+Trig identities: quotients	\tan(\theta)=\frac{\sin(\theta)}{\cos(\theta)}\\\cot(\theta)=\frac{\cos(\theta)}{\sin(\theta)}
+Trig identities: ratios	\sin(\theta)=\frac{opp}{hyp}\hspace{30}\csc(\theta)=\frac{hyp}{opp}\\\cos(\theta)=\frac{adj}{hyp}\hspace{32}\sec(\theta)=\frac{hyp}{adj}\\\tan(\theta)=\frac{opp}{adj}\hspace{26}\cot(\theta)=\frac{adj}{opp}
+Trig identities: reciprocals	\sin(\theta)=\frac{1}{\csc(\theta)}\hspace{30}\csc(\theta)=\frac{1}{\sin(\theta)}\\\cos(\theta)=\frac{1}{\sec(\theta)}\hspace{33}\sec(\theta)=\frac{1}{\cos(\theta)}\\\tan(\theta)=\frac{1}{\cot(\theta)}\hspace{26}\cot(\theta)=\frac{1}{\tan(\theta)}
+Trig identities: sum-difference	\sin(u{\pm}v)=\sin(u)\cos(v){\pm}\cos(u)\sin(v)\\\cos(u{\pm}v)=\cos(u)\cos(v){\mp}\sin(u)\sin(v)\\\tan(u{\pm}v)=\frac{\tan(u){\pm}\tan(v)}{1{\mp}\tan(u)\tan(v)}
+Triple integral	\int\int_B\int{f(x,y,z)}dV=\int_r^s\int_c^d\int_a^b{f(x,y,z)}dxdydz
+Unit binormal vector	\vec{B}(t)=\vec{T}(t)\times\vec{N}(t)
+Unit circle	\unitlength{0.9}\picture(510,500){(260,250){\circle(400)}(60,250){\line(400)}(260,50){\line(0,400)}(119,109){\line(283,283)}(119,392){\line(283,-283)}(87,150){\line(346,200)}(160,77){\line(200,346)}(160,423){\line(200,-346)}(87,350){\line(346,-200)}(320,246){\sm0^\circ/360^\circ}(327,278){\sm30^\circ}(313,302){\sm45^\circ}(285,322){\sm60^\circ}(252,335){\sm90^\circ}(205,322){\sm120^\circ}(188,302){\sm135^\circ}(175,280){\sm150^\circ}(168,252){\sm180^\circ}(175,215){\sm210^\circ}(187,190){\sm225^\circ}(209,170){\sm240^\circ}(246,152){\sm270^\circ}(285,170){\sm300^\circ}(307,190){\sm315^\circ}(321,215){\sm330^\circ}(465,240){(1,0)}(437,345){\(\frac{sqrt{3}}{2},\frac{1}{2}\)}(400,393){\(\frac{sqrt{2}}{2},\frac{sqrt{2}}{2}\)}(355,431){\(\frac{1}{2},\frac{sqrt{3}}{2}\)}(240,455){(0,1)}(104,431){\(-\frac{1}{2},\frac{sqrt{3}}{2}\)}(37,393){\(-\frac{sqrt{2}}{2},\frac{sqrt{2}}{2}\)}(15,345){\(-\frac{sqrt{3}}{2},\frac{1}{2}\)}(0,240){(-1,0)}(5,120){\(-\frac{sqrt{3}}{2},-\frac{1}{2}\)}(25,80){\(-\frac{sqrt{2}}{2},-\frac{sqrt{2}}{2}\)}(80,41){\(-\frac{1}{2},-\frac{sqrt{3}}{2}\)}(233,23){(0,-1)}(350,41){\(\frac{1}{2},-\frac{sqrt{3}}{2}\)}(400,80){\(\frac{sqrt{2}}{2},-\frac{sqrt{2}}{2}\)}(430,120){\(\frac{sqrt{3}}{2},-\frac{1}{2}\)}(437,253){0}(430,233){2\pi}(425,315){\frac{\pi}{6}}(395,358){\frac{\pi}{4}}(358,390){\frac{\pi}{3}}(265,420){\frac{\pi}{2}}(146,385){\frac{2\pi}{3}}(112,353){\frac{3\pi}{4}}(84,313){\frac{5\pi}{6}}(70,252){\pi}(82,158){\frac{7\pi}{6}}(110,115){\frac{5\pi}{4}}(146,85){\frac{4\pi}{3}}(265,55){\frac{3\pi}{2}}(354,85){\frac{5\pi}{3}}(393,115){\frac{7\pi}{4}}(417,158){\frac{11\pi}{6}}}
+Unit normal vector	\vec{N}(t)=\frac{\vec{T'}(t)}{|\vec{T'}(t)|}
+Unit tangent vector	\vec{T}(t)=\frac{\vec{r'}(t)}{|\vec{r'}|}
+Value of compound interest	A(t)=A_0(1+\frac{r}{n})^{nt}
+Value of compound interest with recurring deposits	A(t)=A_0(1+\frac{r}{n})^{nt}+d\cdot\frac{(1+\frac{r}{n})^{nt}-1}{r/n}\cdot(1+\frac{r}{n})
+Value of continuous compound interest	A(t)=A_0e^{kt}
+Vector cross product	\vec{a}\times\vec{b}=\|a_1\hspace{10}a_2\hspace{10}a_3\\b_1\hspace{13}b_2\hspace{13}b_3\\c_1\hspace{12}c_2\hspace{12}c_3\|\\\hspace{36}=\<a_2b_3-a_3b_2,\hspace{5}a_3b_1-a_1b_3,\hspace{5}a_1b_2-a_2b_1\>\\|\vec{a}\times\vec{b}|=|\vec{a}||\vec{b}|\sin(\theta)
+Vector dot product	\vec{a}\cdot\vec{b}=a_xb_x+a_yb_y+a_zb_z\\\vec{a}\cdot\vec{b}=|a||b|\cos(\theta)
+Vector equation of a line	\vec{r}=\vec{r_0}+t\vec{v}
+Vector equation of a line segment	\vec{r}(t)=(1-t)\vec{r_0}+t\vec{r_1}\hspace{30}0\le{t}\le1
+Vector equation of a plane	vector:\\\vec{n}\cdot(\vec{r}-\vec{r_0})=0\\scalar:\\a(x-x_0)+b(y-y_0)+c(z-z_0)=0\\ax+by+cz+d=0
+Vector projection	comp_{\vec{a}}\vec{b}=\frac{\vec{a}\cdot\vec{b}}{|\vec{a}|}\\proj_{\vec{a}}\vec{b}=\(\frac{\vec{a}\cdot\vec{b}}{|\vec{a}|}\)\frac{\vec{a}}{|\vec{a}|}=\(\frac{\vec{a}\cdot\vec{b}}{|\vec{a}|^2}\)\vec{a}
+Volume of a cone	V=\frac{1}{3}{\pi}r^2h
+Volume of a cylinder	V={\pi}r^2h
+Volume of a sphere	V=\frac{4}{3}{\pi}r^3
+Volume of revolution: disk method	V=\int_a^b{{\pi}f(x)^2}dx
+Volume of revolution: ring method	V=\int_a^b{{\pi}[f(x)^2-g(x)^2]}dx
+Volume of revolution: shell method	V=\int_a^b{2{\pi}xf(x)}dx\hspace{30}0\le{a}\lt{b}\\V=\int_a^b{2{\pi}x[f(x)-g(x)]}dx\hspace{20}0\le{a}\lt{b}
+Volume over general region (double integral)	V=\int_R\int{f(x,y)}dA
